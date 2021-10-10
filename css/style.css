@@ -170,3 +170,46 @@ body{
     line-height: 24px;
     color: #55524E;
 }
+.rates{
+    background: #FBEDE4;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.rates__body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rates__right{
+    max-width: 460px;
+    width: 100%;
+}
+.rates__left{
+    max-width: 600px;
+    width: 100%;
+}
+.rates__title{
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 35px;
+}
+.rates__content{
+    display: flex;
+    flex-direction: column;
+    row-g40px;
+}
+.rates__item{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.rates-item__title{
+    font-size: 19px;
+    line-height: 30px;
+}
+.rates-item__text{
+    font-size: 16px;
+    line-height: 24px;
+}
