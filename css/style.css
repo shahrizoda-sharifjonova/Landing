@@ -314,3 +314,123 @@ body{
     align-items: center;
     margin-bottom: 80px;
 }
+.about{
+    background: #1B1918;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.about__title{
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+.about__text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #A7A6A4;
+    max-width: 420px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.about__gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 105px;
+}
+.about__img{
+    width: 250px;
+}
+.about__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.about__item{
+    display: flex;
+    flex-direction: column;
+}
+.about__desc{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 35px;
+}
+.about__link{
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #A7A6A4;
+    text-decoration: none;
+}
+.about__span{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+.about__btn{
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    background: #2E2B29;
+    border-radius: 8px;
+    margin-top: 30px;
+    transition: 500ms ease;
+}
+.about__btn:hover{
+    background: #08786C;
+    color: #fff;
+}
+.footer{
+    background: #194240;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+.footer__body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__text{
+    max-width: 342px;
+    width: 100%;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.footer__lists{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.footer__link{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer__desc{
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+.footer__content{
+    display: flex;
+    align-items: flex-start;
+    column-gap: 150px;
+}
