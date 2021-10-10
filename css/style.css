@@ -213,3 +213,104 @@ body{
     font-size: 16px;
     line-height: 24px;
 }
+.gallery{
+    background: #194240;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 80px;
+}
+.gallery__text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+}
+.gallery__title{
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 58px;
+    color: #FFFFFF;
+    max-width: 680px;
+    width: 100%;
+    margin-bottom: 105px;   
+}
+.gallery__img{
+    width: 100%;
+    margin-bottom: 105px;
+}
+.gallery__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 25px;
+}
+.gallery-item__img{
+    width: 250px;
+}
+.gallery-item__title{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.gallery-item__text{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+.comments__title{
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 45px;
+    color: #000000;
+    max-width: 330px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.comments__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.comments__item{
+    max-width: 360px;
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #CECDCA;
+    border-radius: 8px;
+}
+.comments__icon{
+    font-size: 15px;
+    color: #08786C;
+    margin-bottom: 25px;
+}
+.comments-item__title{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    margin-bottom: 12px;
+}
+.comments-item__desc{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color:  rgba(0, 0, 0, 0.6);
+}
+.comments-item__text{
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 28px;
+}
+.comments__logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
